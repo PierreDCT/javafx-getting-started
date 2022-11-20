@@ -7,7 +7,7 @@ import java.net.Socket;
 public class Server {
     public static void main(String[] args){
         try {
-            ServerSocket ss=new ServerSocket(1234);
+            ServerSocket ss=new ServerSocket(8888);
             Socket s = ss.accept();
             DataInputStream dis = new DataInputStream(s.getInputStream());
             String str = (String)dis.readUTF();
@@ -18,4 +18,3 @@ public class Server {
         }
     }
 }
-

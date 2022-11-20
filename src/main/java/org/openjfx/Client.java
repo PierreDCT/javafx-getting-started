@@ -7,7 +7,7 @@ public class Client {
 
     public static void main(String[] args) {
         try {
-            Socket s = new Socket("localhost", 1234);
+            Socket s = new Socket("localhost", 8888);
             DataOutputStream dout = new DataOutputStream(s.getOutputStream());
             dout.writeUTF("0.8");
             dout.flush();
