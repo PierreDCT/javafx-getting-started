@@ -15,18 +15,18 @@
         <GridPane xmlns:fx="http://javafx.com/fxml"
                   prefHeight="200" prefWidth="320"
                   alignment="center" hgap="20" vgap="20">
-            <Button fx:id="top_left" text="-" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
-            <Button fx:id="top_center" text="-" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
-            <Button fx:id="top_right" text="-" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
-            <Button fx:id="middle_left" text="-" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
-            <Button fx:id="middle_center" text="-" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
-            <Button fx:id="middle_right" text="-" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
-            <Button fx:id="bottom_left" text="-" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
-            <Button fx:id="bottom_center" text="-" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
-            <Button fx:id="bottom_right" text="-" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+            <Button fx:id="top_left" text="1" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <Button fx:id="top_center" text="2" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+            <Button fx:id="top_right" text="3" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+            <Button fx:id="middle_left" text="4" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <Button fx:id="middle_center" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+            <Button fx:id="middle_right" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+            <Button fx:id="bottom_left" text="7" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+            <Button fx:id="bottom_center" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+            <Button fx:id="bottom_right" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
         </GridPane>
     </children>
     <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+        <Insets bottom="35.0" left="35.0" right="35.0" top="35.0" />
     </padding>
 </VBox>
